@@ -10,6 +10,8 @@ import com.example.domain.User;
 
 public interface UserRepo extends CrudRepository <User, Integer> {
 	
-	List<User> findByName (String name);
+	User findByUsername (String username);
+	
+	
 
 }

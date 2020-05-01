@@ -1,4 +1,4 @@
-package com.example;
+package com.example.controller;
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -52,12 +52,12 @@ public class GreetingController {
         Iterable<User> users;
 
         if (filter != null && !filter.isEmpty()) {
-            users = userRepo.findByName(filter);
+           // users = userRepo.findByUsername(filter);  *** old version code
         } else {
         	users = userRepo.findAll();
         }
 
-        model.put("users", users);
+       // model.put("users", users);   *** old version code
 
         return "main";
     }
