@@ -35,6 +35,13 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
 		    <artifactId>spring-boot-starter-web</artifactId>
 		    
 		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-freemarker -->
+		<dependency>
+		    <groupId>org.springframework.boot</groupId>
+		    <artifactId>spring-boot-starter-freemarker</artifactId>
+		    
+		</dependency>
 
 		
 						<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-devtools -->
