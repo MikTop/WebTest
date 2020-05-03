@@ -21,11 +21,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
 	<dependencies>
 				
 				<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-mustache -->
-		<dependency>
-		    <groupId>org.springframework.boot</groupId>
-		    <artifactId>spring-boot-starter-mustache</artifactId>
-		   
-		</dependency>
+		
 
 
 		

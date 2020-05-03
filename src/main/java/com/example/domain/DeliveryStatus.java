@@ -12,4 +12,28 @@ public class DeliveryStatus {
 	private long id;
 	
 	private String description;
+	
+	
+	
+
+	public DeliveryStatus(String description) {
+		super();
+		this.description = description;
+	}
+
+	public DeliveryStatus() {
+		super();
+		
+	}
+
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+	
+	
+	
 }

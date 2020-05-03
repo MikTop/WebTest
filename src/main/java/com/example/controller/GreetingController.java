@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import com.example.domain.User;
 import com.example.repo.UserRepo;
 
-@Controller
+//@Controller
 public class GreetingController {
     @Autowired
     private UserRepo userRepo;

@@ -12,5 +12,28 @@ public class Category {
 	private long id;
 	
 	private String description;
+	
+	
+	
+
+	public Category() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Category(String description) {
+		super();
+		this.description = description;
+	}
+
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+	
+	
 
 }
